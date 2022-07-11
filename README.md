@@ -1,4 +1,4 @@
-# testPi
+# odroid-testPi
 
 for test gpio 40 pins and dtb overlays with wiringPi
 
@@ -9,7 +9,7 @@ cmake
 gcc
 g++
 libwiringpi-dev
-wiringpi
+odroid-wiringpi
 ```
 
 #### Reference
@@ -18,7 +18,7 @@ How to use: [manual](doc/manual.md)
 
 Trouble-shooting: [issue](doc/issue.md)
 
-- wiringPi: <https://github.com/wiringPi/wiringPi>
+- odroid-wiringpi: <https://github.com/hardkernel/wiringPi>
 
 #### contact:
 

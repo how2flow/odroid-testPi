@@ -1,4 +1,4 @@
 g++
 gcc
 libwiringpi-dev
-wiringpi
+odroid-wiringpi

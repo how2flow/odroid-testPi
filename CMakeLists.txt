@@ -6,7 +6,7 @@ set(CMAKE_VERBOSE_MAKEFILE ON)
 set(CMAKE_INSTALL_PREFIX ${CMAKE_SOURCE_DIR}/install)
 
 # === custom vars === #
-set(PI_PATH /usr/local/include)
+set(PI_PATH /usr/include/wiringpi2)
 
 # === global === #
 # add_compile_options()
