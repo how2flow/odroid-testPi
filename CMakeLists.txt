@@ -7,7 +7,7 @@ set(CMAKE_INSTALL_PREFIX ${CMAKE_SOURCE_DIR})
 
 # === custom vars === #
 set(LINKS wiringPi wiringPiDev m pthread rt crypt)
-set(PI_PATH /usr/local/include)
+set(PI_PATH /usr/include/wiringpi2)
 set(UTILS src/test.c src/thread.c)
 
 # === custom functions === #
