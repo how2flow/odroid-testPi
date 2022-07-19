@@ -6,6 +6,7 @@ get_dependency() {
 	# packages
 	pkg_list="$(cat ${TOP_DIR}/packages | tr " " "\n" | sort | uniq | tr "\n" " ")"
 	[ -z "$(sudo dpkg -l | grep wiringpi-dev)" ] && sudo apt-get install -y ${pkg_list}
+	[ -z "$(sudo dpkg -l | grep i2c-tools)" ] && sudo apt-get install -y ${pkg_list}
 }
 
 get_tools() {

@@ -10,6 +10,7 @@ gcc
 g++
 libwiringpi-dev
 odroid-wiringpi
+i2c-tools
 ```
 
 #### Reference
